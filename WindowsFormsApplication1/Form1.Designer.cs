@@ -64,6 +64,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Comforttronic Digital TM1";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -73,15 +74,17 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "FUZ2-CX \"neue FU Kunststoff\"";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(630, 46);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 43);
+            this.button4.Size = new System.Drawing.Size(143, 43);
             this.button4.TabIndex = 3;
             this.button4.Text = "1,5 KW FU Kunststoffgehäuse \"ALT\"";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -116,7 +119,7 @@
             // 
             this.button8.Location = new System.Drawing.Point(630, 126);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(133, 41);
+            this.button8.Size = new System.Drawing.Size(143, 41);
             this.button8.TabIndex = 7;
             this.button8.Text = "Anschlußpläne Lichtgitter SG15";
             this.button8.UseVisualStyleBackColor = true;
@@ -152,7 +155,7 @@
             // 
             this.button12.Location = new System.Drawing.Point(627, 209);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(134, 39);
+            this.button12.Size = new System.Drawing.Size(146, 39);
             this.button12.TabIndex = 11;
             this.button12.Text = "Diverse Bemaßungen: Torblatt, Dosen etc.";
             this.button12.UseVisualStyleBackColor = true;
@@ -206,6 +209,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Übersicht";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BOTHE-HILD Schaltpläne";
             this.Load += new System.EventHandler(this.Übersicht_Load);
             this.ResumeLayout(false);
