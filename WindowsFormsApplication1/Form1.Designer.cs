@@ -114,6 +114,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "Becker Antriebe an Feig Steuerung";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -123,6 +124,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "Anschlußpläne Lichtgitter SG15";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -132,6 +134,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "Diverse Anleitungen";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -141,6 +144,7 @@
             this.button10.TabIndex = 9;
             this.button10.Text = "Interne Infos";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -150,6 +154,7 @@
             this.button11.TabIndex = 10;
             this.button11.Text = "ASF-Tore Neue Lichtschranken";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
