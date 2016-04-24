@@ -97,7 +97,39 @@ namespace WindowsFormsApplication1
         private void button11_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Form = new ASFneu();
+            var Form = new ASFalt();
+            Form.Closed += (s, args) => this.Close();
+            Form.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Form = new DiverseBe();
+            Form.Closed += (s, args) => this.Close();
+            Form.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Form = new ASFsonder();
+            Form.Closed += (s, args) => this.Close();
+            Form.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Form = new Sonder();
+            Form.Closed += (s, args) => this.Close();
+            Form.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Form = new ASFalt();
             Form.Closed += (s, args) => this.Close();
             Form.Show();
         }

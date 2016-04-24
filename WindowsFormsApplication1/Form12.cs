@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
@@ -48,6 +42,56 @@ namespace WindowsFormsApplication1
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             Process.Start(@"C:/Index/ASF Tore/Keyence/I-I ASF Keyence mit Schlupftür links Außenflügel Antrieb Außen Außenflügel.pdf");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/Keyence/I-III ASF Keyence mit Schlupftür rechts Mittelflügel (von Innen gesehen) Antrieb Außen Außenflügel mit Einweglichtschranke.pdf");
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/Keyence/II-III ASF Keyence mit Schlupftür Innenflügel rechts  Antrieb Außen Innenflügel.pdf");
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/Keyence/IV-III ASF mit Schlupftür rechts Mittelflügel Antrieb Innen Außenflügel.pdf");
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/Keyence/II-IV ASF Keyence mit Schlupftür Außenflügel rechts  Antrieb Außen Innenflügel.pdf");
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/ASF I Bemassung A3.pdf");
+        }
+
+        private void pictureBox30_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/ASF II Bemassung A3.pdf");
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/ASF III Bemassung A3.pdf");
+        }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/ASF IV Bemassung A3.pdf");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/Bedienugsanleitungen div/Comforttronic WS-AF.pdf");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:/Index/ASF Tore/Steuerung ASF Test Parameter.pdf");
         }
     }
 }
