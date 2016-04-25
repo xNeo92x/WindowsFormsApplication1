@@ -615,5 +615,323 @@ namespace WindowsFormsApplication1
                     }
             }
         }
+
+        private void comboBox14_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox14.SelectedItem.ToString())
+            {
+                case "Handsender Bemassungen mit VK Preis":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Microsoft PowerPoint - Handsender Bemassungen mit VK Preis.pdf");
+                        break;
+                    }
+                case "Neues Konzept Handsender Tedsen":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Neues Konzept Handsender Tedsen.pdf");
+                        break;
+                    }
+                case "Tedsen Produktpalette":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen neuer Funksstandard Bebilderung.pdf");
+                        break;
+                    }
+                case "Anlernen von Handsender Bothe-Hild bei GfA TS971":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Zusatz zu Handsendern Tedsen bei GfA TS971.pdf");
+                        break;
+                    }
+                case "Standard Handsender 4-Kanal":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen SKR1-4MD.pdf");
+                        break;
+                    }
+                case "Mini Handsender 2-Kanal":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen SKRJ.pdf");
+                        break;
+                    }
+                case "Wandempfänger 4-Kanal":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen EKR1-4M.pdf");
+                        break;
+                    }
+                case "Info einlernen des Steckempfängers 2-Kanal EKR2GAB (für Feig Steuerung)":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen Steckempfänger für Feig Steuerungen Anlernen Handsender.pdf");
+                        break;
+                    }
+                case "Info einlernen des Steckempfängers 2-Kanal EKR2FTB (für ASF Steuerung)":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen Steckempfänger für ASF Steuerungen Anlernen Handsender.pdf");
+                        break;
+                    }
+                case "Info einlernen des Wandempfänger 4-Kanal EKR4MDEM":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen 4Kanal Wandempfänger extern Anlernen Handsender.pdf");
+                        break;
+                    }
+                case "Funk-Codetaster 4-Kanal SKR4CB":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Handsender NEUER STANDARD/Tedsen FunkcodeSchloss SKR4CB.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox15_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox15.SelectedItem.ToString())
+            {
+                case "Lichthupensteuerung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Lichthupensteuerung Anleitung.pdf");
+                        break;
+                    }
+                case "Sommer 868,8 MHz Funk Wandempfänger 2-/4-Kanal":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sommer Wand Funkempfaenger-2-4-Kanal_46358V000_MBA_latest-version.pdf");
+                        break;
+                    }
+                case "Sommer 868,8 MHz Funk Handsender 4 Befehl":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Handsender SOMMER 868 4-Bef..pdf");
+                        break;
+                    }
+                case "SMD Handsender 1-4 Befehl Industrie 1-100k":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/SMD Anleitung Handsender Industrie 1bis4Befehl 1bis100K.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox16_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox16.SelectedItem.ToString())
+            {
+                case "Telco Lichtgitter SG 15 Komplettschutz Zargeneinbau":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/SG_15_Lichtgitter_Prospekt_mit_OSE_2014-10.pdf");
+                        break;
+                    }
+                case "Telco Lichtgitter SG 14 Objektschutz Zargeneinbau":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Telco SG14_Lichtgitter.pdf");
+                        break;
+                    }
+                case "Telco Lichtgitter SG 10 Objektschutz Vorbau":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Telco SG10 Lichtgitter.pdf");
+                        break;
+                    }
+                case "Telco Lichtgitterkatalog SG10 / SG14":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Telco-Sitron Katalog Lichtgitter SG1014.pdf");
+                        break;
+                    }
+                case "Keyence GL-R 20 H Fingerklemmschutz Lichtgitter neue Version":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Keyence FKS GL-R 20H Anleitung.pdf");
+                        break;
+                    }
+                case "SICK C2000 Fingerklemmschutz Lichtgitter alte Version":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sick C2000 FKS Anleitung.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox17_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox17.SelectedItem.ToString())
+            {
+                case "SICK Einweglichtschranke WS WE 250":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sick Einweglichtschranke SENSICK WS_WE250.pdf");
+                        break;
+                    }
+                case "SICK Reflexionslichtschranke WL 250":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sick Reflexionslichtschranke WL250-2R1531.pdf");
+                        break;
+                    }
+                case "SICK Lichtschranke Einzugssicherung L28 S/E":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sick L28S L28E.pdf");
+                        break;
+                    }
+                case "SICK Lichtschranke Einbau in Zarge GRSE18S-P2336":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sick Einweglichtschranke Einbau GRSE18S-P2336.pdf");
+                        break;
+                    }
+                case "Keyence Einweglichtschranke Zargeneinbau möglich für Waschhallen mit Verstärker PX-10CP und EinwegLS PX-H72":
+                    {
+                        Process.Start(@"C:/Index/Schaltpläne/Waschhallenkonzept/Waschhallenlichtschranke NEU Komplett.pdf");
+                        break;
+                    }
+                case "Carlo Cavazzi Verstärker für alte Lichtschranke Waschhalle S142ARNN924":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Lichtschranken-Waschhallenverstärker S142ARNN924_040705_ger.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox18_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox18.SelectedItem.ToString())
+            {
+                case "SICK Lichtschranke Einbau in Zarge GRSE18S-P2336":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Sick Einweglichtschranke Einbau GRSE18S-P2336.pdf");
+                        break;
+                    }
+                case "GRSE Lichtschranke an Feig Steuerungen":
+                    {
+                        Process.Start(@"C:/Index/Sonderpläne/Zusatzschaltpläne divers/Anschluß Sick Einbau Einweg Lichtschranken FEIGSteuerungen.pdf");
+                        break;
+                    }
+                case "GRSE Lichtschranke an GfA TS971":
+                    {
+                        Process.Start(@"C:/Index/Sonderpläne/Zusatzschaltpläne divers/Anschluß Sick Einbau Einweg Lichtschranken an TS971.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox19_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox19.SelectedItem.ToString())
+            {
+                case "WITT NOCON voreilende Lichtschranke für Schließkantensicherung Sektional - und Rolltore bis 8m Breite nur mit Spiralkabel oder Energiekette":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Witt NOCON voreilende Schliesskantensicherung Sektionaltor und Rolltor.pdf");
+                        break;
+                    }
+                case "WITT NOCON Montageanleitung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/WITT Montageanleitung komplett für voreilende Lichtschranke.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox20_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox20.SelectedItem.ToString())
+            {
+                case "Bircher Radar Herkules Dokumentation":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Bircher Radar Herkules Dokumentation.pdf");
+                        break;
+                    }
+                case "Bircher Radar Herkules Betriebsanleitung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Bircher Radar Herkules_2_Betriebsanleitung_d_e_f.pdf");
+                        break;
+                    }
+                case "Bircher Radar Herkules Einstellungen":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Bircher Radar Herkules Einstellungen_d.pdf");
+                        break;
+                    }
+                case "BEA Condor Radar Betriebsanleitung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/BEA Condor_de_v2.pdf");
+                        break;
+                    }
+                case "BEA Milan Anwesenheitssensor Betriebsanleitung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/BEA Milan Anleitung.pdf");
+                        break;
+                    }
+                case "BEA LZR l100/l110 Laserscanner/Anleitung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/BEA LZR100 LaserScanner.pdf");
+                        break;
+                    }
+                case "Feig MWD BP Radar Betriebsanleitung":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/MWD BP Radarmelder Feig Handbuch_mehrsprachig_8.pdf");
+                        break;
+                    }
+                case "Cedes TOF/TAXI Absicherung Türblatt":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Cedes TOF TAXI.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox21_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox21.SelectedItem.ToString())
+            {
+                case "Bircher ProLoop2 (NEU) Induktionsschleifendetektor 1-fach und 2-fach":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Bircher Schleifendetektor 24Volt ProLoop2 1und2Kanal_de.pdf");
+                        break;
+                    }
+                case "Feig Verkehrsdetektor VEK Schleifendetektor 1-fach":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/1fach Schleifendetektor BES_M1E1.pdf");
+                        break;
+                    }
+                case "Feig Verkehrsdetektor VEK Schleifendetektor 2-fach":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/2fach Schleifendetektor BES_M2E2.pdf");
+                        break;
+                    }
+                case "Feig Verkehrsdetektor SVEKx-1 steckbarer Schleifendetektor 1/2-fach":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/TST_SVEKx-1.pdf");
+                        break;
+                    }
+                case "Anleitung Schleifenverlegung Induktionsschleifen":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Induktionsschleife Schleifenverlegung Anleitung.pdf");
+                        break;
+                    }
+                case "Montageanleitung Fertig-Induktionsschleife":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Fertiginduktionsschleife.pdf");
+                        break;
+                    }
+            }
+        }
+
+        private void comboBox22_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox22.SelectedItem.ToString())
+            {
+                case "IFM Magnetsensor MS5011":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/IFM MS5011 Magnetsensor.pdf");
+                        break;
+                    }
+                case "VDS-C Magnetkontakt Einbau Tür (Honeywell)":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/VDS C Magnetkontakt Honeywell.pdf");
+                        break;
+                    }
+                case "VDS-C Riegelschaltkontakt Honeywell":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Honeywell Riegelschaltkontakt VDS-C 0.08-031308.pdf");
+                        break;
+                    }
+                case "VDS-C Magnetkontakt (Boden) ABUS":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/ABUS MK4100 VDS-C Rolltorbodenkontakt.pdf");
+                        break;
+                    }
+                case "Bircher RF Gate Funkauswerter":
+                    {
+                        Process.Start(@"C:/Index/Bedienugsanleitungen div/Bircher RF Gate");
+                        break;
+                    }
+            }
+        }
     }
 }

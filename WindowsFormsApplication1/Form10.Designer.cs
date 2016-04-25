@@ -55,6 +55,24 @@
             this.label12 = new System.Windows.Forms.Label();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -417,12 +435,254 @@
             this.label13.TabIndex = 26;
             this.label13.Text = "GfA TS971 diverse Sonderverdrahtungen";
             // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Handsender Bemassungen mit VK Preis",
+            "Neues Konzept Handsender Tedsen",
+            "Tedsen Produktpalette",
+            "Anlernen von Handsender Bothe-Hild bei GfA TS971",
+            "Standard Handsender 4-Kanal",
+            "Mini Handsender 2-Kanal",
+            "Wandempfänger 4-Kanal",
+            "Info einlernen des Steckempfängers 2-Kanal EKR2GAB (für Feig Steuerung)",
+            "Info einlernen des Steckempfängers 2-Kanal EKR2FTB (für ASF Steuerung)",
+            "Info einlernen des Wandempfänger 4-Kanal EKR4MDEM",
+            "Funk-Codetaster 4-Kanal SKR4CB"});
+            this.comboBox14.Location = new System.Drawing.Point(486, 543);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(220, 21);
+            this.comboBox14.TabIndex = 27;
+            this.comboBox14.SelectedIndexChanged += new System.EventHandler(this.comboBox14_SelectedIndexChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(523, 515);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(145, 13);
+            this.label14.TabIndex = 28;
+            this.label14.Text = "Neuer Funk 434MHz Tedsen";
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Items.AddRange(new object[] {
+            "Lichthupensteuerung",
+            "Sommer 868,8 MHz Funk Wandempfänger 2-/4-Kanal ",
+            "Sommer 868,8 MHz Funk Handsender 4 Befehl",
+            "SMD Handsender 1-4 Befehl Industrie 1-100k"});
+            this.comboBox15.Location = new System.Drawing.Point(850, 533);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(204, 21);
+            this.comboBox15.TabIndex = 29;
+            this.comboBox15.SelectedIndexChanged += new System.EventHandler(this.comboBox15_SelectedIndexChanged);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(885, 515);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(123, 13);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "Handsender Funk divers";
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "Telco Lichtgitter SG 15 Komplettschutz Zargeneinbau",
+            "Telco Lichtgitter SG 14 Objektschutz Zargeneinbau",
+            "Telco Lichtgitter SG 10 Objektschutz Vorbau",
+            "Telco Lichtgitterkatalog SG10 / SG14",
+            "Keyence GL-R 20 H Fingerklemmschutz Lichtgitter neue Version",
+            "SICK C2000 Fingerklemmschutz Lichtgitter alte Version"});
+            this.comboBox16.Location = new System.Drawing.Point(53, 663);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(236, 21);
+            this.comboBox16.TabIndex = 31;
+            this.comboBox16.SelectedIndexChanged += new System.EventHandler(this.comboBox16_SelectedIndexChanged);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(122, 630);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(53, 13);
+            this.label16.TabIndex = 32;
+            this.label16.Text = "Lichtgitter";
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Items.AddRange(new object[] {
+            "SICK Einweglichtschranke WS WE 250",
+            "SICK Reflexionslichtschranke WL 250",
+            "SICK Lichtschranke Einzugssicherung L28 S/E",
+            "SICK Lichtschranke Einbau in Zarge GRSE18S-P2336",
+            "Keyence Einweglichtschranke Zargeneinbau möglich für Waschhallen mit Verstärker P" +
+                "X-10CP und EinwegLS PX-H72",
+            "Carlo Cavazzi Verstärker für alte Lichtschranke Waschhalle S142ARNN924"});
+            this.comboBox17.Location = new System.Drawing.Point(486, 663);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(183, 21);
+            this.comboBox17.TabIndex = 33;
+            this.comboBox17.SelectedIndexChanged += new System.EventHandler(this.comboBox17_SelectedIndexChanged);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(529, 644);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(80, 13);
+            this.label17.TabIndex = 34;
+            this.label17.Text = "Lichtschranken";
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Items.AddRange(new object[] {
+            "SICK Lichtschranke Einbau in Zarge GRSE18S-P2336",
+            "GRSE Lichtschranke an Feig Steuerungen",
+            "GRSE Lichtschranke an GfA TS971"});
+            this.comboBox18.Location = new System.Drawing.Point(829, 646);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(253, 21);
+            this.comboBox18.TabIndex = 35;
+            this.comboBox18.SelectedIndexChanged += new System.EventHandler(this.comboBox18_SelectedIndexChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(853, 618);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(192, 13);
+            this.label18.TabIndex = 36;
+            this.label18.Text = "Einbau-Lichtschranke SICK GRSE18-S";
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Items.AddRange(new object[] {
+            "WITT NOCON voreilende Lichtschranke für Schließkantensicherung Sektional - und Ro" +
+                "lltore bis 8m Breite nur mit Spiralkabel oder Energiekette",
+            "WITT NOCON Montageanleitung"});
+            this.comboBox19.Location = new System.Drawing.Point(63, 773);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(146, 21);
+            this.comboBox19.TabIndex = 37;
+            this.comboBox19.SelectedIndexChanged += new System.EventHandler(this.comboBox19_SelectedIndexChanged);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(47, 739);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(200, 13);
+            this.label19.TabIndex = 38;
+            this.label19.Text = "Voreilende Lichtschranke WITT NOCON";
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Items.AddRange(new object[] {
+            "Bircher Radar Herkules Dokumentation",
+            "Bircher Radar Herkules Betriebsanleitung",
+            "Bircher Radar Herkules Einstellungen",
+            "BEA Condor Radar Betriebsanleitung",
+            "BEA Milan Anwesenheitssensor Betriebsanleitung",
+            "BEA LZR l100/l110 Laserscanner/Anleitung",
+            "Feig MWD BP Radar Betriebsanleitung",
+            "Cedes TOF/TAXI Absicherung Türblatt"});
+            this.comboBox20.Location = new System.Drawing.Point(413, 751);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(176, 21);
+            this.comboBox20.TabIndex = 39;
+            this.comboBox20.SelectedIndexChanged += new System.EventHandler(this.comboBox20_SelectedIndexChanged);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(430, 723);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(159, 13);
+            this.label20.TabIndex = 40;
+            this.label20.Text = "Radarmelder/Bewegungsmelder";
+            // 
+            // comboBox21
+            // 
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Items.AddRange(new object[] {
+            "Bircher ProLoop2 (NEU) Induktionsschleifendetektor 1-fach und 2-fach",
+            "Feig Verkehrsdetektor VEK Schleifendetektor 1-fach",
+            "Feig Verkehrsdetektor VEK Schleifendetektor 2-fach",
+            "Feig Verkehrsdetektor SVEKx-1 steckbarer Schleifendetektor 1/2-fach",
+            "Anleitung Schleifenverlegung Induktionsschleifen",
+            "Montageanleitung Fertig-Induktionsschleife"});
+            this.comboBox21.Location = new System.Drawing.Point(789, 750);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(196, 21);
+            this.comboBox21.TabIndex = 41;
+            this.comboBox21.SelectedIndexChanged += new System.EventHandler(this.comboBox21_SelectedIndexChanged);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(859, 716);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(98, 13);
+            this.label21.TabIndex = 42;
+            this.label21.Text = "Induktionsschleifen";
+            // 
+            // comboBox22
+            // 
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Items.AddRange(new object[] {
+            "IFM Magnetsensor MS5011",
+            "VDS-C Magnetkontakt Einbau Tür (Honeywell)",
+            "VDS-C Riegelschaltkontakt Honeywell",
+            "VDS-C Magnetkontakt (Boden) ABUS",
+            "Bircher RF Gate Funkauswerter"});
+            this.comboBox22.Location = new System.Drawing.Point(63, 895);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(218, 21);
+            this.comboBox22.TabIndex = 43;
+            this.comboBox22.SelectedIndexChanged += new System.EventHandler(this.comboBox22_SelectedIndexChanged);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(122, 856);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(133, 13);
+            this.label22.TabIndex = 44;
+            this.label22.Text = "Sicherheitselemente divers";
+            // 
             // DiverseAn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1312, 607);
+            this.ClientSize = new System.Drawing.Size(1347, 967);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.comboBox22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.comboBox21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.comboBox20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.comboBox19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.comboBox18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.comboBox17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.comboBox16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.comboBox15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.comboBox14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.comboBox13);
             this.Controls.Add(this.label12);
@@ -487,5 +747,23 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox comboBox21;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.Label label22;
     }
 }
